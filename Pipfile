@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[dev-packages]
+
+[packages]
+pandas = "*"
+numpy = "*"
+tqdm = "*"
+pathlib = "*"
+datetime = "*"
+seaborn = "*"
+scikit-learn = "*"
+scipy = "*"
+jupyter = "*"
+
+[requires]
+python_version = "3.5"
